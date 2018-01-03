@@ -7,7 +7,7 @@
     <meta name="author" content="Brighton ALT NET">
     <link rel="icon" href="favicon.ico">
 
-    <title>Brighton ALT.NET - a meetup for C# and .NET developers in Brighton</title>
+    <title>{{ page.title }}</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link href="jumbotron.css" rel="stylesheet">
@@ -16,12 +16,14 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">Brighton ALT NET</a>
+      <a class="navbar-brand" href="/">Brighton ALT NET</a>
     </nav>
 
     <main role="main">
 
-      <div class="container"><br /></div>
+      <div class="container">
+          <h1>{{ page.title }}</h1>
+      </div>
 
       <div class="container">
           {{ content }}

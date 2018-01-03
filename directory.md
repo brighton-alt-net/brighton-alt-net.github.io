@@ -22,7 +22,7 @@ Dave Morrow .NET Developer blog
 
 Mike Hook .NET Developer blog twitter
 
-Andrew Cherry Developer/Architect [http://twitter.com/kolektiv](http://xyncro.com/)[http://xyncro.com/] (http://twitter.com/kolektiv)
+Andrew Cherry Developer/Architect [http://xyncro.com/](http://xyncro.com/)
 
 Garry Shutler Developer blog twitter
 
@@ -36,7 +36,7 @@ Duncan Goodall .NET Developer [http://twitter.com/duncangoodall](http://twitter.
 
 Stamati-Crook Microsoft CRM and Sage 50 developer also interested in SMS/EPUB/DRUPAL [http://www.redware.com/](http://www.redware.com/)
 
-Marc Ziman Architect/Developer [http://twitter.com/marcziman](http://flat9.wordpress.com/)[http://flat9.wordpress.com/] (http://twitter.com/marcziman)
+Marc Ziman Architect/Developer [http://flat9.wordpress.com/](http://flat9.wordpress.com/)
 
 Simon Harriyott .NET Developer Contractor [http://harriyott.com/](http://harriyott.com/) @harriyott
 
@@ -48,7 +48,7 @@ James Cowan Freelance Developer [http://www.jamescowan.org.uk/](http://www.james
 
 Paul Taylor AngularJS, .NET, SQL Server and DotNetNuke Developer / Contractor [https://uk.linkedin.com/in/dotcomsoftware](https://uk.linkedin.com/in/dotcomsoftware)
 
-Patrick Hastings .Net Developer WPF/MVC/Nhibernate [http://uk.linkedin.com/in/pathastings](http://www.brighthelmsolutions.com/)[http://www.brighthelmsolutions.com/] (http://uk.linkedin.com/in/pathastings)
+Patrick Hastings .Net Developer WPF/MVC/Nhibernate [http://www.brighthelmsolutions.com/](http://www.brighthelmsolutions.com/)
 
 James Bradshaw Freelance .NET Developer @jamesbradshaw
 
@@ -62,17 +62,17 @@ John Clynes Technical Director [http://www.15below.com/](http://www.15below.com/
 
 Andrew Jutton - .Net Developer [http://blog.devscrum.net/](http://blog.devscrum.net/)
 
-Antony Koch - Senior .Net Developer [http://iamkoch.com/](http://twitter.com/brightoniant)[http://twitter.com/brightoniant] (http://iamkoch.com/)
+Antony Koch - Senior .Net Developer [http://iamkoch.com/](http://iamkoch.com/)
 
 Kim Richmond - Freelance .NET Developer and occasional Code Retreat organiser [http://twitter.com/lethrir](http://twitter.com/lethrir)
 
 Steven Spencer - .Net Developer WPF/MVC/EF currently looking at NopCommerce
 
-Steve Johnstone - .Net Developer and Project Manager [http://www.stejay.com/](http://twitter.com/stevejstone)[http://twitter.com/stevejstone] (http://www.stejay.com/)
+Steve Johnstone - .Net Developer and Project Manager [http://www.stejay.com/](http://www.stejay.com/)
 
 Goncalo Melo - .NET Developer [http://twitter.com/bonesbrigadier](http://twitter.com/bonesbrigadier)
 
-Martyn Osborne - Support [http://twitter.com/zzdtri](http://www.15below.com)[http://www.15below.com] / Web Developer (MVC/jQuery/EF) (http://twitter.com/zzdtri)
+Martyn Osborne - Support [http://twitter.com/zzdtri](http://twitter.com/zzdtri) / Web Developer (MVC/jQuery/EF)
 
 Jonathan Sewell - .NET Developer at Cubeworks  - Twitter and Blog
 
@@ -80,9 +80,9 @@ Karl Nilsson - .NET Developer twitter blog
 
 Gavin Draper .Net Developer [http://twitter.com/gavdraper](http://twitter.com/gavdraper)
 
-Rob Kent - idler, contractor, contrarian. [http://proofbydesign.com](http://robkent.com)[http://robkent.com] (http://proofbydesign.com) Twitter
+Rob Kent - idler, contractor, contrarian. [http://proofbydesign.com](http://proofbydesign.com)
 
-Jonathan Archibald - .Net Developer [http://www.brightwave.co.uk/blog-authors/jonathan](http://twitter.com/jonarchibald)[http://twitter.com/jonarchibald] (http://www.brightwave.co.uk/blog-authors/jonathan)
+Jonathan Archibald - .Net Developer [http://www.brightwave.co.uk/blog-authors/jonathan](http://www.brightwave.co.uk/blog-authors/jonathan)
 
 John Harman - .NET and front end contractor [http://twitter.com/digi4life](http://twitter.com/digi4life) personal blog
 
@@ -90,11 +90,11 @@ Michael Marshall - .Net Developer [http://twitter.com/BtnMike](http://twitter.co
 
 Ian Thomson - .Net enthusiast [http://www.anaapps.com](http://www.anaapps.com)
 
-Rich Green - Umbraco CMS Developer [http://twitter.com/richie_green](http://www.umbrellainc.co.uk)[http://www.umbrellainc.co.uk] (http://twitter.com/richie_green)
+Rich Green - Umbraco CMS Developer [http://twitter.com/richie_green](http://twitter.com/richie_green)
 
 Kevin O'Shaughnessy - Senior Application Developer at Quartix blog outlier developer guest blog LinkedIn Twitter 
 
-Dave Mateer - .NET Developer for Quorum Network Resources [http://www.github.com/djhmateer](http://www.qnrl.com)[http://www.qnrl.com] (http://www.programgood.net)[http://www.programgood.net] (https://twitter.com/dave_mateer)[https://twitter.com/dave_mateer] (http://www.github.com/djhmateer)
+Dave Mateer - .NET Developer for Quorum Network Resources [http://www.github.com/djhmateer](http://www.github.com/djhmateer)
 
 John Dillon - .NET Developer, NopCommerce [http://www.accu-web.co.uk](http://www.accu-web.co.uk)
 

@@ -37,12 +37,12 @@
         <div class="row">
           <div class="col-md-4">
             <h2>What?</h2>
-			<p>Brighton ALT.NET is a monthly get together for anyone interested in C# and .NET development. We meet at <a href="https://theskiff.org/">The Skiff</a> on the first Tuesday of every month at 7.30 pm. It's free. There's no need to register or book, just turn up. We've been going for around ten years.</p>
-			<p>It's very informal. Usually around ten to twenty people turn up. We have a pile of post-it notes and at the beginning of the evening we write down stuff we'd like to talk about. We then vote on the topics and talk about them in descending vote order, 15 minutes per question until 9 and then 5 minutes per question until the end. We are usually finished by 9.30.</p>
-			<p>It's a really friendly crowd and everyone is welcome.</p>
+            <p>Brighton ALT.NET is a monthly get together for anyone interested in C# and .NET development. We meet at <a href="https://theskiff.org/">The Skiff</a> on the first Tuesday of every month at 7.30 pm. It's free. There's no need to register or book, just turn up. We've been going for around ten years.</p>
+            <p>It's very informal. Usually around ten to twenty people turn up. We have a pile of post-it notes and at the beginning of the evening we write down stuff we'd like to talk about. We then vote on the topics and talk about them in descending vote order, 15 minutes per question until 9 and then 5 minutes per question until the end. We are usually finished by 9.30.</p>
+            <p>It's a really friendly crowd and everyone is welcome.</p>
             <p>This site is administered by <a href="http://mikehadlow.com">Mike Hadlow</a>, please contact <a href="mailto:brighton.altnet@suteki.co.uk">brighton.altnet@suteki.co.uk</a> for more information.</p>
             <p>Follow <a href="https://twitter.com/mikehadlow">@mikehadlow</a> on Twitter for updates.</p>
-			<p>Meetup.com page is here <a href="https://www.meetup.com/Brighton-ALT-NET/">https://www.meetup.com/Brighton-ALT-NET/</a></p>
+            <p>Meetup.com page is here <a href="https://www.meetup.com/Brighton-ALT-NET/">https://www.meetup.com/Brighton-ALT-NET/</a></p>
           </div>
           <div class="col-md-4">
             <h2>Where?</h2>
@@ -54,7 +54,7 @@
           <div class="col-md-4">
             <h2>When?</h2>
             <p>The first Tuesday of every month.</p>
-			<p>The next meeting is on Tuesday<br/><b>January 2nd 2017 at 7.30 pm.</b></p>
+            <p>The next meeting is on Tuesday<br/><b><span class="next-meeting-date"></span></b></p>
           </div>
         </div>
 
@@ -71,5 +71,36 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script>
+
+      var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+
+      function getNextMeetingDate(now) {
+        now.setHours(0, 0, 0, 0);
+        var candidateMonth = now.getMonth();
+        var candidateYear = now.getFullYear();
+        for(var i=0; i<2; i++) {
+          for(var dayOfMonth = 1; dayOfMonth <= 7; dayOfMonth++) {
+            var candidateDate = new Date(candidateYear, candidateMonth, dayOfMonth);
+            if(candidateDate.getDay() === 2) {
+              var yesterday = new Date(now.getTime() - 1000*60*60*24);
+              if(candidateDate > yesterday) {
+                return monthNames[candidateMonth] + " " + dayOfMonth + " " + candidateYear + " at 7:30 PM.";
+              }
+            }
+          }
+          if(candidateMonth === 11) {
+            candidateMonth = 0;
+            candidateYear++;
+          } else {
+            candidateMonth++;
+          }
+          dayOfMonth = 1;
+        }
+        return "Error setting next meeting date.";
+      }
+
+      $(".next-meeting-date").html(getNextMeetingDate(new Date()));
+    </script>
   </body>
 </html>

@@ -1,4 +1,5 @@
 ---
+layout: default
 title:  "Directory"
 ---
 
@@ -6,7 +7,7 @@ Mike Hadlow Freelance .NET Developer, Architect and Blogger [http://mikehadlow.c
 
 Iain Holder .NET Developer [http://twitter.com/iainholder](http://twitter.com/iainholder) 
 
-Keith Bloom, Freelance .Net developer blog @keith_bloom
+Keith Bloom, Freelance .Net developer [http://keithbloom.blogspot.co.uk/](http://keithbloom.blogspot.co.uk/) [http://twitter.com/keith_bloom](http://twitter.com/keith_bloom)
 
 Graham Scott .NET Developer Twitter: [http://www.twitter.com/grahamscott](http://www.twitter.com/grahamscott)
 

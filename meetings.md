@@ -1,4 +1,5 @@
 ---
+layout: default
 title:  "Previous Meetings"
 ---
 This page is used to maintain a record of all our meetings. Each meeting page details the topics discussed and any additional notes.

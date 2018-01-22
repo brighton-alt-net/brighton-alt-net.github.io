@@ -1,5 +1,5 @@
 # brighton-alt-net.github.io
-The Brighton ALT NET website
+The Brighton ALT NET website, Hosted at [http://brightonalt.net/](http://brightonalt.net/)
 
 GitHub Pages uses the Jekyll blogging engine to automatically generate the content for the site. To develop changes locally you can use the included `docker-compose` file. Docker compose is installed by default on Windows and MacOS. For Linux follow the instructions on the docker site.
 

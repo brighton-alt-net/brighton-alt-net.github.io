@@ -2,11 +2,13 @@ version: '3'
 
 services:
   jeykll-serer:
-    image: keithbloom/github-pages:initial
+    image: jekyll/jekyll
     container_name: brighton-alt-net-jekyll-server
+    environment:
+            - JEKYLL_ENV=docker
     volumes:
-      - ./:/usr/src/app
-    command: jekyll serve -d /_site --watch --force_polling -H 0.0.0.0 -P 4000 
+      - ./:/srv/jekyll
+    command: jekyll serve --config _config.docker.yml --force_polling 
     ports:
       - 4000:4000
            

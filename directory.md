@@ -85,7 +85,7 @@ Rob Kent - idler, contractor, contrarian. [http://proofbydesign.com](http://proo
 
 Jonathan Archibald - .Net Developer [http://www.brightwave.co.uk/blog-authors/jonathan](http://www.brightwave.co.uk/blog-authors/jonathan)
 
-John Harman - .NET and front end contractor [http://twitter.com/digi4life](http://twitter.com/digi4life) personal blog
+John Harman - .NET and front end developer [http://twitter.com/johnharmanwho](http://twitter.com/johnharmanwho)
 
 Michael Marshall - .Net Developer [http://twitter.com/BtnMike](http://twitter.com/BtnMike)
 

@@ -1,5 +1,5 @@
 ---
-title:  "February 6th 2018"
+title:  "2018 6th February"
 ---
 
 Topics discussed, with number of votes:

@@ -6,9 +6,12 @@ services:
     container_name: brighton-alt-net-jekyll-server
     environment:
             - JEKYLL_ENV=docker
+    # force_polling makes the linux box watch for any changes to files, then it will regenerate
+    # livereload gets the browser to automatically refresh when changes happen to file
     volumes:
       - ./:/srv/jekyll
-    command: jekyll serve --config _config.docker.yml --force_polling 
+    command: jekyll serve --force_polling --livereload
     ports:
       - 4000:4000
+      - 35729:35729
            

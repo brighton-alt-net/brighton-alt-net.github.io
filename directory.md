@@ -112,3 +112,5 @@ Dave Hinton - .NET Developer for Quorum Network Resources [http://www.qnrl.com](
 Ian Thomas .NET Developer, TUI Education blog @ianthomas_uk linked in
 
 Arijus Gilbrantas .Net Developer @arijusg linked in
+
+Matt McCorry - .NET and TypeScript Developer [https://github.com/luhis](https://github.com/luhis)

@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
+import { sortBy } from "@s-libs/micro-dash";
 import Layout from "../components/Layout";
-import { sortBy } from "lodash";
 
 const members = [
   {

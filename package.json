@@ -17,6 +17,7 @@
     "format": "prettier --write \"**/*.{js,jsx,tsx,ts,json}\""
   },
   "dependencies": {
+    "@s-libs/micro-dash": "^16.1.0",
     "bootstrap": "^4.6.2",
     "gatsby": "^5.12.4",
     "gatsby-plugin-google-gtag": "^5.12.0",

@@ -38,14 +38,16 @@ const layout: React.FC<
     <main role="main" style={{ paddingTop: "3.5rem" }}>
       {jumboTronTitle ? (
         <div
-          className="jumbotron p-0"
-          style={{ display: "grid" }}
+          className="jumbotron p-0 rounded-0 "
+          style={{
+            display: "grid",
+            overflow: "hidden",
+            maxHeight: 134 + 64 + 64,
+          }}
         >
           <StaticImage
             style={{
               gridArea: "1/1",
-              // You can set a maximum height for the image, if you wish.
-              maxHeight: 134 + 64 + 64,
             }}
             // You can optionally force an aspect ratio for the generated image
             // This is a presentational image, so the alt should be an empty string
@@ -55,18 +57,19 @@ const layout: React.FC<
             formats={["auto", "webp", "avif"]}
           />
           <div
-            className="container"
+            className="d-flex align-items-center"
             style={{
               // By using the same grid area for both, they are stacked on top of each other
               gridArea: "1/1",
               position: "relative",
               // This centers the other elements inside the hero component
               display: "grid",
+              maxHeight: 134 + 64 + 64,
             }}
           >
             <div
-              className="text-white"
-              style={{ paddingTop: 64, textShadow: "black 0.3em 0.3em 0.3em" }}
+              className="text-white container"
+              style={{ textShadow: "black 0.3em 0.3em 0.3em" }}
             >
               <h1 className="display-3">{jumboTronTitle}</h1>
               <p>{jumboTronTagLine}</p>

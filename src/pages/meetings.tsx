@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
-import { kebabCase } from "@s-libs/micro-dash";
+import { kebabCase } from "lodash";
 
 import Layout from "../components/Layout";
 import { PostSummary } from "../types/types";

@@ -1,8 +1,10 @@
 # brighton-alt-net.github.io
 The Brighton ALT NET website, Hosted at [http://brightonalt.net/](http://brightonalt.net/)
 
-GitHub Pages uses the Jekyll blogging engine to automatically generate the content for the site. To develop changes locally you can use the included `docker-compose` file. Docker compose is installed by default on Windows and MacOS. For Linux follow the instructions on the docker site.
+It uses Gatsby to build a static web page.
 
-To start the server run `docker-compose up` at the command line. This will retrieve the image and start the server.
+To install the npm packages run `pnpm install`, if you don't have pnpm installed, install it with `npm i -g pnpm`
+
+To start the server run `npm run start` at the command line. This will start the server.
 
 When you are done press `Ctrl-c` to exit the process.

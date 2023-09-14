@@ -1,0 +1,8 @@
+---
+layout: default
+title: 2015 3rd February
+---
+
+		Mike's functional IoC container: <a class="externallink" href="http://mikehadlow.blogspot.co.uk/2012/10/a-functional-ioc-container.html" title="http://mikehadlow.blogspot.co.uk/2012/10/a-functional-ioc-container.html" target="_blank">http://mikehadlow.blogspot.co.uk/2012/10/a-functional-ioc-container.html</a><br><br>Rust, a new systems programming language from Mozilla: <a class="externallink" href="http://www.rust-lang.org/" title="http://www.rust-lang.org/" target="_blank">http://www.rust-lang.org/</a><br><br>About Rust's ownership/borrowing memory model: <a class="externallink" href="http://doc.rust-lang.org/book/ownership.html" title="http://doc.rust-lang.org/book/ownership.html" target="_blank">http://doc.rust-lang.org/book/ownership.html</a><br><br>nand2tetris: <a class="externallink" href="http://www.nand2tetris.org/" title="http://www.nand2tetris.org/" target="_blank">http://www.nand2tetris.org/</a><br><br>Charles Petzold - Code: <a class="externallink" href="http://www.amazon.co.uk/Code-Language-Computer-Hardware-Software/dp/0735611319" title="http://www.amazon.co.uk/Code-Language-Computer-Hardware-Software/dp/0735611319" target="_blank">http://www.amazon.co.uk/Code-Language-Computer-Hardware-Software/dp/0735611319</a><br><br>Elon Musk learning - <a class="externallink" href="http://lifehacker.com/elon-musk-on-learning-new-things-view-knowledge-as-a-t-1677850415" title="http://lifehacker.com/elon-musk-on-learning-new-things-view-knowledge-as-a-t-1677850415" target="_blank">http://lifehacker.com/elon-musk-on-learning-new-things-view-knowledge-as-a-t-1677850415</a>
+
+	

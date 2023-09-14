@@ -1,0 +1,45 @@
+{
+  "name": "alt-dot-net",
+  "version": "1.0.0",
+  "private": true,
+  "description": "alt-dot-net",
+  "author": "Matt McCorry",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write \"**/*.{js,jsx,tsx,ts,json}\""
+  },
+  "dependencies": {
+    "@s-libs/micro-dash": "^16.1.0",
+    "bootstrap": "^4.6.2",
+    "gatsby": "^5.12.4",
+    "gatsby-plugin-google-gtag": "^5.12.0",
+    "gatsby-plugin-image": "^3.12.0",
+    "gatsby-plugin-sharp": "^5.12.0",
+    "gatsby-source-filesystem": "^5.12.0",
+    "gatsby-transformer-remark": "^6.12.0",
+    "gatsby-transformer-sharp": "^5.12.0",
+    "pigeon-maps": "^0.21.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@types/react-helmet": "^6.1.6",
+    "prettier": "3.0.2",
+    "typescript": "^5.2.2"
+  },
+  "prettier": {
+    "endOfLine": "crlf"
+  }
+}

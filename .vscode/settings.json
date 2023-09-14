@@ -1,0 +1,7 @@
+{
+  "cSpell.words": ["frontmatter"],
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "files.eol": "\r\n"
+}

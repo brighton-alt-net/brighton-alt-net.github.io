@@ -1,0 +1,11 @@
+---
+layout: default
+title: 2015 1st September 
+---
+
+		The lineup:<br><br><ul><li>Dave Mateer - Refactoring<br></li></ul><br> <a class="externallink" href="https://github.com/djhmateer/Refactoring" title="github.com/djhmateer/Refactoring" target="_blank">github.com/djhmateer/Refactoring</a><br><br>Please send me a pull request if you'd like to add/change anything here.. or davemateer@gmail.com
+Really enjoyed making and giving this talk!  Thanks for the feedback and questions.<br><br><ul><li>Steve Moss - Talking Tabs<br></li></ul><br>  <a class="externallink" href="http://1drv.ms/1N1TLVb" title="PowerPoint presentation" target="_blank">PowerPoint presentation</a><br><br><ul><li>Kim Richmond - Music Streaming Migrations<br></li></ul><br><ul><li>Keith Bloom - Something to do with working in finance.<br></li></ul><br><ul><li>James World - Grokking Git with Shakespeare<br></li></ul><br><a class="externallink" href="http://www.slideshare.net/james-world/grokking-git-with-shakespeare" title=" 	 Slides" target="_blank"><span class="Apple-tab-span" style="white-space:pre">	</span>Slides</a>
+<a class="externallink" href="http://www.slideshare.net/james-world/windows-demo-script-to-accompany-grokking-git-with-shakespeare" title=" 	 Demo Script" target="_blank"><span class="Apple-tab-span" style="white-space:pre">	</span>Demo Script</a>
+<a class="externallink" href="https://git-scm.com/book/en/v2" title=" 	 The Git Book" target="_blank"><span class="Apple-tab-span" style="white-space:pre">	</span>The Git Book</a> - see chapter 10 for Internals<br><br><span class="Apple-tab-span" style="white-space:pre">	</span>One other&nbsp;note to add: When Mike asked if the blobs files on the file system literally contained raw content, I said yes - this wasn't entirely accurate, in fact the blob content is compressed using zlib compression. The git cat-file -p command decompresses this representation.<br><br><span class="Apple-tab-span" style="white-space:pre">	</span>DaveMateer here :-) <a class="externallink" href="https://jwiegley.github.io/git-from-the-bottom-up/" title="https://jwiegley.github.io/git-from-the-bottom-up/" target="_blank">https://jwiegley.github.io/git-from-the-bottom-up/</a>   Git from the bottom up book you mentioned James!
+
+	

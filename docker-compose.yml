@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  jeykll-serer:
-    image: jekyll/jekyll
+  jeykll-server:
+    image: jekyll/jekyll:3
     container_name: brighton-alt-net-jekyll-server
     environment:
             - JEKYLL_ENV=docker

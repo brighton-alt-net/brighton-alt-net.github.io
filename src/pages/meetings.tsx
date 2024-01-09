@@ -1,13 +1,10 @@
 import React from "react";
-import { Link, graphql } from "gatsby";
+import { Link, PageProps, graphql } from "gatsby";
 import { kebabCase } from "lodash";
 
 import Layout from "../components/Layout";
-import { PostSummary } from "../types/types";
 
-const Meetings: React.FC<{
-  data: { blog: { posts: readonly PostSummary[] } };
-}> = ({ data }) => {
+const Meetings: React.FC<PageProps<Queries.MeetingsQueryQuery>> = ({ data }) => {
   const { posts } = data.blog;
   return (
     <Layout title="Previous Meetings">
@@ -15,8 +12,8 @@ const Meetings: React.FC<{
       page details the topics discussed and any additional notes.
       {posts.map((post) => (
         <p key={post.id}>
-          <Link to={`/meetings/${kebabCase(post.frontmatter.title)}`}>
-            {post.frontmatter.title}
+          <Link to={`/meetings/${kebabCase(post.frontmatter?.title || undefined)}`}>
+            {post.frontmatter?.title}
           </Link>
         </p>
       ))}
@@ -27,7 +24,7 @@ const Meetings: React.FC<{
 export default Meetings;
 
 export const pageQuery = graphql`
-  query MyQuery {
+  query MeetingsQuery {
     blog: allMarkdownRemark(sort: { fileAbsolutePath: DESC }) {
       posts: nodes {
         frontmatter {

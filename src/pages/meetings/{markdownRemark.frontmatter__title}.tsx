@@ -1,15 +1,14 @@
-import { graphql } from "gatsby";
+import { PageProps, graphql } from "gatsby";
 import React, { FC } from "react";
 
-import { Post } from "../../types/types";
 import Layout from "../../components/Layout";
 
-const Frame: FC<{ data: { markdownRemark: Post } }> = ({ data }) => {
+const Frame: FC<PageProps<Queries.BlogQueryQuery>> = ({ data }) => {
   const post = data.markdownRemark;
 
   return (
-    <Layout title={post.frontmatter.title}>
-      <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+    <Layout title={post?.frontmatter?.title || undefined}>
+      <div dangerouslySetInnerHTML={{ __html: post?.html || "" }}></div>
     </Layout>
   );
 };
